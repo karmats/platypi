@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Getting-started</title>
+		<link rel="stylesheet" type="text/css" href="style.css" />
+	</head>
+	<body>
+        <plat-drawer class="drawer" plat-options="{ position: 'right' }">
+            <plat-link plat-options="{ view: '', isUrl: true }" class="drawer-item">
+                <img class="drawer-icon" src="./common/assets/house.png" />
+                <span>Home</span>
+            </plat-link>
+            <plat-link plat-options="{ view: '/login', isUrl: true }" class="drawer-item">
+                <img class="drawer-icon" src="./common/assets/logout.png" />
+                <span>Log Out</span>
+            </plat-link>
+        </plat-drawer>
+        <div class="app">
+            <navbar></navbar>
+            <plat-viewport></plat-viewport>
+        </div>
+        <script type="text/javascript" src="app.js"></script>
+	</body>
+</html>

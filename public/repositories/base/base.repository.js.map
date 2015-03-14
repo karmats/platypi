@@ -1,0 +1,1 @@
+{"version":3,"file":"base.repository.js","sourceRoot":"","sources":["base.repository.ts"],"names":["BaseRepository","BaseRepository.constructor"],"mappings":"AAEA,IAAO,IAAI,WAAW,UAAU,CAAC,CAAC;AAElC,IAAM,cAAc;IAApBA,SAAMA,cAAcA;IAMpBC,CAACA;IALoBD,sBAAOA,GAAQA;QAC5BA,MAAMA,EAAEA,IAAIA,CAACA,KAAKA;KACrBA,CAACA;IAGNA,qBAACA;AAADA,CAACA,AAND,IAMC;AAEuB,AAAxB,iBAAS,cAAc,CAAC"}

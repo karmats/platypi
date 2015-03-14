@@ -1,0 +1,139 @@
+{
+    "name": "Getting-started",
+    "version": "0.0.1",
+    "description": "",
+    "author": "",
+    "homepage": "",
+    "main": "index.js",
+    "scripts": {
+        "prepublish": "./node_modules/.bin/grunt install --force"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "browserify": "latest",
+        "connect": "latest",
+        "deamdify": "latest",
+        "grunt": "latest",
+        "grunt-browserify": "latest",
+        "grunt-cli": "latest",
+        "grunt-ts": "latest",
+        "grunt-cordovacli": "latest",
+        "grunt-concurrent": "latest",
+        "grunt-contrib-clean": "latest",
+        "grunt-contrib-copy": "latest",
+        "grunt-contrib-cssmin": "latest",
+        "grunt-contrib-less": "latest",
+        "grunt-contrib-uglify": "latest",
+        "grunt-contrib-watch": "latest",
+        "grunt-nodemon": "latest",
+        "grunt-shell": "latest",
+        "grunt-tslint": "latest",
+        "morgan": "latest",
+        "platypus": "latest",
+        "platypusui": "latest",
+        "serve-static": "latest",
+        "stringify": "^3.1.0",
+        "tsd": "next"
+    },
+    "platypi": {
+        "projectType": "mobile",
+        "viewcontrols": [
+            {
+                "name": "base",
+                "type": "viewcontrol",
+                "path": "viewcontrols/base"
+            },
+            {
+                "name": "home",
+                "type": "viewcontrol",
+                "path": "viewcontrols/home"
+            },
+            {
+                "name": "register",
+                "type": "viewcontrol",
+                "path": "viewcontrols/register",
+                "registeredName": "register-vc"
+            },
+            {
+                "name": "login",
+                "type": "viewcontrol",
+                "path": "viewcontrols/login",
+                "registeredName": "login-vc"
+            },
+            {
+                "name": "order",
+                "type": "viewcontrol",
+                "path": "viewcontrols/order",
+                "registeredName": "order-vc"
+            },
+            {
+                "name": "confirmation",
+                "type": "viewcontrol",
+                "path": "viewcontrols/confirmation",
+                "registeredName": "confirmation-vc"
+            }
+        ],
+        "injectables": [],
+        "services": [
+            {
+                "name": "base",
+                "type": "service",
+                "path": "services/base"
+            },
+            {
+                "name": "user",
+                "type": "service",
+                "path": "services/user",
+                "registeredName": "user-service"
+            },
+            {
+                "name": "products",
+                "type": "service",
+                "path": "services/products",
+                "registeredName": "products-service"
+            }
+        ],
+        "repositories": [
+            {
+                "name": "base",
+                "type": "repository",
+                "path": "repositories/base"
+            },
+            {
+                "name": "user",
+                "type": "repository",
+                "path": "repositories/user",
+                "registeredName": "user-repo"
+            }
+        ],
+        "factories": [
+            {
+                "name": "base",
+                "type": "factory",
+                "path": "factories/base"
+            },
+            {
+                "name": "server",
+                "type": "factory",
+                "path": "factories/server"
+            }
+        ],
+        "templatecontrols": [
+            {
+                "name": "base",
+                "type": "templatecontrol",
+                "path": "common/controls/base"
+            },
+            {
+                "name": "navbar",
+                "type": "templatecontrol",
+                "path": "common/controls/navbar",
+                "registeredName": "navbar-tc"
+            }
+        ],
+        "attributecontrols": [],
+        "templatesVersion": "0.2.3",
+        "publicPath": "public",
+        "mainFilePath": "public/main.ts"
+    }
+}
